@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 import { PhotosModule } from './photos/photos.module';
 import { CommonModule } from '@angular/common';
 import { PhotoService } from './photos/photo/photo.servece';
-
-export interface Photo {
-  url: string;
-  description: string;
-}
+import { Photo } from './photos/photo/photo';
 
 @Component({
   selector: 'app-root',
